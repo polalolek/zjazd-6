@@ -2,17 +2,17 @@
 
 int main()
 {
-    int howmany;
+    int amount;
     std::string sentence;
     std::cout << "Napisz cos: ";
     getline(std::cin, sentence);
     std::cout << "\n"
               << sentence;
     std::cout << "\nIle razy polaczyc napis? ";
-    std::cin >> howmany;
+    std::cin >> amount;
 
     std::string finalresult = "";
-    for (int i = 0; i < howmany; i++)
+    for (int i = 0; i < amount; i++)
     {
         finalresult += sentence;
     }
